@@ -3,7 +3,7 @@
 
 ## Results
 
-The results are stored in ascending order, strictly increasing. If there is a gap between these numbers, it means the result was smaller than a previous result.
+The results are stored in ascending order, strictly increasing. If there is a gap between these numbers, it means the result was smaller than a previous result. This is sufficient to find an upper bound, and avoids needing to store 2^32 pairs of 32-bit numbers.
 
 Given a value s, we return a value p such that sn+1 = p is the smallest prime of this form.
 
