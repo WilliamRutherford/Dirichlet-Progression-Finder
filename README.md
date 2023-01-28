@@ -1,7 +1,7 @@
 # Dirichlet Progression Finder
  Finds the smallest primes of the form sn+1
 
-##Results
+## Results
 
 The results are stored in ascending order, strictly increasing. If there is a gap between these numbers, it means the result was smaller than a previous result.
 
@@ -9,7 +9,7 @@ Given a value s, we return a value p such that sn+1 = p is the smallest prime of
 
 This data can be used to compute a potential upper bound, and the upper bound of the data is less than any data previously published.
 
-##Use
+## Use
 
 The function "mr_test" performs a [deterministic Miller-Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) on a number. The larger the number, the more witness numbers required. 
 
